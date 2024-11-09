@@ -1,0 +1,21 @@
+.responsiveNav{
+    @apply relative lg:hidden
+}
+
+.resmenu{
+    @apply p-5 mr-1 w-[170px] bg-red-500 rounded-lg absolute top-[110%] right-0 overflow-hidden;
+   
+}
+
+.resmenu ul{
+    @apply flex items-center flex-col gap-5 
+}
+.resmenu ul li {
+    @apply text-lg w-full inline-block font-Rubik  rounded-md font-semibold text-white hover:bg-[#3c0b0b]
+}
+.resmenu ul li a{
+    @apply  w-full flex justify-center items-center p-[3px]
+}
+.resmenu_button{
+    @apply py-2 px-10 w-full bg-black inline-block rounded-lg mt-5 text-white text-center font-bold
+}
